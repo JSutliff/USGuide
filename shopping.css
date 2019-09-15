@@ -22,9 +22,20 @@ header {
   width: 100%;
 }
 
-#shoppingContent {
+#mainContent {
   margin-top: 8rem;
+  text-align: center;
+}
+
+.categories {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: auto;
+  color: #686868;
+}
+
+h1 {
+  /* background-color: #999; */
+  padding: 4.5rem;
+  border-right: 0.2rem solid #686868;
+  border-bottom: 0.2rem solid #686868;
 }
