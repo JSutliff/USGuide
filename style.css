@@ -1,3 +1,4 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -42,4 +43,33 @@ img {
   background-color: #80b3ff;
   color: white;
   font-size: 2rem;
+}
+
+.entypo-heart {
+  display: block;
+  font-size: 8rem;
+}
+
+#shoppingButton {
+  color: red;
+}
+
+#eatingButton {
+  color: green;
+}
+
+#tipsButton {
+  color: violet;
+}
+
+#beforeButton {
+  color: yellow;
+}
+
+#mapsButton {
+  color: orange;
+}
+
+#historyButton {
+  color: darkblue;
 }
