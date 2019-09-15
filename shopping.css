@@ -1,0 +1,30 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+header {
+  height: 4.5rem;
+  background-color: skyblue;
+  color: white;
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#shoppingContent {
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+}
