@@ -9,17 +9,31 @@ html {
   box-sizing: inherit;
 }
 
-header {
-  height: 4.5rem;
+.navbar {
+  /* height: 4.5rem;
   background-color: skyblue;
   color: white;
-  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem; */
+  background-color: red;
+  width: 100%;
+}
+
+header {
+  /* height: 4.5rem;
+  background-color: skyblue;
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem; */
   display: flex;
   align-content: center;
   justify-content: center;
   position: fixed;
   top: 0;
   width: 100%;
+}
+
+.open-slide {
 }
 
 #mainContent {
@@ -36,6 +50,6 @@ header {
 h1 {
   /* background-color: #999; */
   padding: 4.5rem;
-  border-right: 0.2rem solid #686868;
-  border-bottom: 0.2rem solid #686868;
+  border-right: 0.2rem solid rgb(219, 219, 219);
+  border-bottom: 0.2rem solid rgb(219, 219, 219);
 }

@@ -9,17 +9,59 @@ html {
   box-sizing: inherit;
 }
 
-header {
+.navbar {
   height: 4.5rem;
+  width: 100%;
   background-color: skyblue;
-  color: white;
   margin-bottom: 0.5rem;
+  overflow: hidden;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  opacity: 0.9;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.side-nav a {
+  padding: 10px 10px 10px 30px;
+  text-decoration: none;
+  font-size: 22px;
+  color: #ccc;
+  display: block;
+  transition: 0.3s;
+}
+
+.side-nav a:hover {
+  color: #fff;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  right: 22px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+/* .open-slide {
+  margin-left: 3rem;
+} */
+
+header {
   display: flex;
   align-content: center;
   justify-content: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  margin-top: -2rem;
+  color: white;
 }
 
 #imageHeader {
