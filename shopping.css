@@ -1,4 +1,10 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: "entypo", sans-serif;
+}
+
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
   box-sizing: border-box;
@@ -22,14 +28,16 @@ body {
   overflow: hidden;
 }
 
+.entypo-left-open-big {
+  color: white;
+}
+
 header {
   display: flex;
   align-content: center;
   justify-content: center;
   color: white;
-}
-
-.open-slide {
+  margin-top: -2.5rem;
 }
 
 #mainContent {
