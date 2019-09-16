@@ -3,34 +3,30 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: inherit;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .navbar {
-  /* height: 4.5rem;
-  background-color: skyblue;
-  color: white;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem; */
-  background-color: red;
+  height: 4.5rem;
   width: 100%;
+  background-color: skyblue;
+  margin-bottom: 0.5rem;
+  overflow: hidden;
 }
 
 header {
-  /* height: 4.5rem;
-  background-color: skyblue;
-  color: white;
-  font-size: 1.2rem;
-  margin-bottom: 0.5rem; */
   display: flex;
   align-content: center;
   justify-content: center;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  color: white;
 }
 
 .open-slide {
@@ -47,9 +43,65 @@ header {
   color: #686868;
 }
 
-h1 {
-  /* background-color: #999; */
-  padding: 4.5rem;
-  border-right: 0.2rem solid rgb(219, 219, 219);
-  border-bottom: 0.2rem solid rgb(219, 219, 219);
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  padding: 3.5rem;
+  border-bottom: 0.1rem solid rgb(219, 219, 219);
+}
+
+.entypo-heart {
+  font-size: 4rem;
+}
+
+ul a:nth-child(odd) {
+  border-right: 0.1rem solid rgb(219, 219, 219);
+}
+
+.redHeart {
+  color: red;
+}
+
+.greenHeart {
+  color: green;
+}
+
+.violetHeart {
+  color: violet;
+}
+
+.yellowHeart {
+  color: goldenrod;
+}
+
+.orangeHeart {
+  color: orange;
+}
+
+.darkBlueHeart {
+  color: darkblue;
+}
+
+.tealHeart {
+  color: teal;
+}
+
+.blueVioletHeart {
+  color: blueviolet;
+}
+
+.chartreuseHeart {
+  color: chartreuse;
+}
+
+.coralHeart {
+  color: coral;
+}
+
+.orchidHeart {
+  color: orchid;
 }

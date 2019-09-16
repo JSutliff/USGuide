@@ -9,6 +9,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  font-family: sans-serif;
+}
+
 .navbar {
   height: 4.5rem;
   width: 100%;
